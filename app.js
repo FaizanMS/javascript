@@ -411,7 +411,7 @@
 // Question No.2
 
         // var userNum, multiplier, result;
-        // userNum = prompt("Enter a number to print its multiplication table", "6")
+        // userNum = prompt("Enter a number to print its multiplication table", "5")
         // multiplier = 1;
         
         // document.write("Multiplication Table of " + userNum + "<br> <br>")
@@ -1112,6 +1112,39 @@
         //         break;
         // }
 
+
+// Question No.8
+
+        // var userTime;
+        // userTime = parseInt(prompt("Please enter time in 24 hours format", "1300"));
+        // if(userTime>=0000 && userTime<1200){
+
+        //     alert("Good Morning");
+
+        // }
+        // else if(userTime>=1200 && userTime<1700){
+
+        //     alert("Good Afternoon");
+
+        // }
+        // else if(userTime>=1700 && userTime<2100){
+
+        //     alert("Good Evening");
+
+        // }
+        // else if(userTime>=2100 && userTime<2359){
+
+        //     alert("Good Night");
+
+        // }
+        // else{
+
+        //     alert("Not a valid time format");
+
+        // }
+        
+
+
 // Question No.9
 
         // var userYear, userYearLength;
@@ -1134,33 +1167,790 @@
         // }
 
 
+
+// Question No.10
+
+
+        // var correctPassword, userPassword, passValid;
+        // correctPassword = "000666";
+        // userPassword = prompt("Please enter your password", "****");
+        // passValid = userPassword.length;
+        // if(passValid > 0){
+
+        //         if(userPassword == correctPassword){
+
+        //                 alert("Correct! The password you entered matches the original password”");
+
+        //         }
+        //         else{
+
+        //                 alert("Incorrect password");
+
+        //         }
+
+        // }
+        // else{
+
+        //         alert("Please enter your password");
+
+        // }
+
+
+// Question No.11
+
+
+        // var firstName = "Ali";
+        // if (firstName === "Fahad") {
+        //         document.write("Hello Fahad!");
+        // }
+        // else{
+
+        //         document.write("You are not Fahad");
+
+        // }
+
+
+// Question No.12
+
+
+        // var greeting;
+        // var hour = 13;
+        // if (hour < 18) {
+        // greeting = "Good day";
+        // }
+        // else{
+        // greeting = "Good evening";
+        // }
+
+
+// Question No.13
+
+
+        // var int1, int2;
+        // int1 = parseInt(prompt("Please enter first number","5"));
+        // int2 = parseInt(prompt("Please enter second number","2"));
+        // if(int1==int2){
+
+        //         document.write(int1, " and ", int2, " are equal.");
+        // }
+        // else if(int1>int2){
+
+        //         document.write(int1);
+        // }
+        // else {
+
+        //         document.write(int2);
+        // }
+
+
+// Question No.14
+
+
+        // var userNum;
+        // userNum = parseInt(prompt("Please enter a positive or negative number","23"));
+        
+        // if (userNum==0){
+
+        //         document.write("The number is zero")
+        // }
+        // else if(Math.sign(userNum) == 1){
+
+        //     document.write(userNum + " is a positive number");
+
+        // }
+        // else  if(Math.sign(userNum) == -1){
+
+        //     document.write(userNum + " is a negative number");
+
+        // }
+        // else{
+
+        //     document.write("NaN");
+
+        // }
+
+
+
+// Question No.15
+
+
+        // var userHour;
+        // userHour = parseInt(prompt("Type the current hour of the day in two digits format","13"));
+        // if (userHour>=6 && userHour<=9){
+
+        //         document.write("Breakfast is served");
+        // }
+        // else if (userHour>=11 && userHour<=13){
+
+        //         document.write("Time for lunch");
+        // }
+        // else if (userHour>=17 && userHour<=20){
+
+        //         document.write("It's dinner time");
+        // }
+        // else if (userHour>=0 && userHour<6 || userHour>9 && userHour<11 || userHour>13 && userHour<17 || userHour>20 && userHour<=24){
+
+        //         document.write("Sorry, you'll have to wait, or go get a snack.");
+        // }
+        // else {
+
+        //         document.write("Invalid time format.");
+
+        // }
+
+
+// Question No.16
+
+
+        // var myNum, myBool, userInp, numCheck;
+        // userInp = prompt("Please enter a word a number or a boolean value","Cat");
+        // myNum = parseInt(userInp);
+        // numCheck = myNum.toString();
+        // if(userInp.toLowerCase() == "true"){
+        //         myBool = true;
+        // }
+        // else if(userInp.toLowerCase() == "false"){
+        //         myBool = false;
+        // }
+        // if(!isNaN(myNum) && numCheck.length == userInp.length){
+
+        //         document.write(myNum, " is a number")
+
+        // } else if (myBool === true || myBool === false){
+
+        //         document.write(userInp, " is a boolean value")
+        // } else if (typeof userInp == "string"){
+
+        //         document.write(userInp, " is a string")
+        // }
+        
+
+// Question No.16.1
+
+        // var myVal;
+        // myVal  = true;
+        // if(typeof myVal == "string"){
+        //     document.write(myVal + " is a String");
+        // }
+        // else if(typeof myVal == "number"){
+        //         document.write(myVal + " is a Number");
+        // }
+        // else if(typeof myVal == "boolean"){
+        //     document.write(myVal + " is a Boolean");
+        // }
+        // else{
+        //         document.write("The value is ", myVal)
+        // }
+
+        
+// Question No.17
+
+        // var userChar, nonVowel, myVal;
+        // nonVowel = ["b", "c", "d", "f", "g", "h", "j","k","l","m","n","p","q","r","s","t","v","w","x","y","z"];
+
+        // userChar = window.prompt("Please enter a valid character", "A");
+        
+
+        // for(i=0; i<=20; i++){
+
+        //         if(userChar.toLowerCase() == "a" || userChar.toLowerCase() == "e" || userChar.toLowerCase() == "i" || userChar.toLowerCase() == "o" || userChar.toLowerCase() == "u" && userChar.length == 1){
+
+        //                 myVal = true;
+        //         }
+
+        //         else if(userChar.toLowerCase() == nonVowel[i] && userChar.length == 1 ){
+
+        //                 myVal = false;
+                        
+        //         }
+
+
+        // }
+
+        // if(myVal == true){
+
+        //         document.write(userChar, " is a vowel");
+        // }
+        // else if(myVal == false){
+
+        //         document.write(userChar, " is not a vowel");
+        // }
+        // else{
+
+        //         document.write("'" ,userChar, "' is not a valid input. Please follow the guidelines properly");
+        // }
+
+
+// Question No.18
+
+        // if(10!=8){
+        //         document.write(true);
+        // }
+
+
+// Question No.19
+
+        // var userNum;
+        // userNum = parseInt(prompt("Please enter a month in numerical form","7"));
+
+        //         switch(userNum){
+        //                 case 1:
+        //                         alert("January");
+        //                         break;
+        //                 case 2:
+        //                         alert("Feburary");
+        //                         break;
+        //                 case 3:
+        //                         alert("March");
+        //                         break;
+        //                 case 4:
+        //                         alert("April");
+        //                         break;
+        //                 case 5:
+        //                         alert("May");
+        //                         break;
+        //                 case 6:
+        //                         alert("June");
+        //                         break;
+        //                 case 7:
+        //                         alert("July");
+        //                         break;
+        //                 case 8:
+        //                         alert("August");
+        //                         break;
+        //                 case 9:
+        //                         alert("September");
+        //                         break;
+        //                 case 10:
+        //                         alert("October");
+        //                         break;
+        //                 case 11:
+        //                         alert("November");
+        //                         break;
+        //                 case 12:
+        //                         alert("December");
+        //                         break;
+        //                 default:
+        //                         alert("Invalid Month");
+                        
+
+        //         }
+
+
+
+// Question No.20
+
+        // var age, voteable;
+        // age = parseInt(prompt("Please enter a valid age", "16"));
+        // voteable = age<18 ? "Too young": "Old enough";
+        // document.write(voteable);
+        
+
+
+
+                                                                    /* CHAPTER No. 14-17 "ARRAYS"  */
+
+
+
+// Question No.1
+
+        // var newA;
+        // newA = [];
+     
+
+// Question No.3
+
+        // var myArr;
+        // myArr = ["My", "Name", "is", "Faizan"];
+
+
+// Question No.4
+
+        // var myArr;
+        // myArr = [0,2,6,3,7];
+
+
+// Question No.5
+
+        // var myArr;
+        // myArr = [true, false, true, true, true, false, true, false, false, true];
+
+
+// Question No.6
+
+        // var myArr;
+        // myArr = ["This", "Array", "has numbers", 3, 6, 7, ", boolean and string values", true];
+
+
+// Question No.7
+
+        // var myArr;
+        // myArr = ["Telenor", "Ufone", "Jazz", "Warid", "Zong"];
+
+
 // Question No.8
 
-        var userTime;
-        userTime = parseInt(prompt("Please enter time in 24 hours format", "1300"));
-        if(userTime>=0000 && userTime<1200){
+        // var myArr;
+        // myArr = ["SSC", "HSC", "BSC", "BS", "MS", "M.PHIL", "PHD"];
+        // document.write("<h1>Qualifications</h1> <br>");
+        // for(i=0; i<7; i++){
+        //         document.write(i+1, ") ", myArr[i], "<br>");
+        // }
 
-            alert("Good Morning");
 
-        }
-        else if(userTime>=1200 && userTime<1700){
+// Question No.9
 
-            alert("Good Afternoon");
+        // var myArr;
+        // myArr = [];
+        // myArr.push("Avengers: Age of Ultron");
+        // myArr.push("Spectre");
+        // myArr.push("Jurassic World");
+        // myArr.push("Inside Out");
+        // document.write("<h1>Top Movies of 2015</h1> <br>");
+        // for(i=0; i<4; i++){
+        //         document.write(i+1 + ") " + myArr[i] + "<br>");
+        // }
+        // document.write("<br> <strong>Length of the array: </strong>" + myArr.length);
 
-        }
-        else if(userTime>=1700 && userTime<2100){
 
-            alert("Good Evening");
+// Question No.10
 
-        }
-        else if(userTime>=2100 && userTime<2359){
+        // var  myArr;
+        // myArr = ["Audi", "Volvo", "Ford", "Lamborghini"];
+        // document.write("<h1>Favorite Cars</h1> <br>");
+        // document.write(myArr + "<br> <br>");
+        // document.write("First index of the array: " + 0 + "<br>");
+        // document.write("Car at first index of the array: " + myArr[0] + "<br>");
+        // document.write("Last index of the array: " + 3 + "<br>");
+        // document.write("Car at last index of the array: " + myArr[3] + "<br>");
 
-            alert("Good Night");
 
-        }
-        else{
+// Question No.11
 
-            alert("Not a valid time format");
+        // var  myArr, myArr1, totalMarks;
+        // totalMarks = 500;
+        // myArr  = ["Michael", "John", "Tony"];
+        // myArr1 = [340, 470, 373];
+        // document.write("Score of " + myArr[0] + " is " + myArr1[0] + ". Percentage: " + ((myArr1[0]*100)/totalMarks) + "% <br>");
+        // document.write("Score of " + myArr[1] + " is " + myArr1[1] + ". Percentage: " + ((myArr1[1]*100)/totalMarks) + "% <br>");
+        // document.write("Score of " + myArr[2] + " is " + myArr1[2] + ". Percentage: " + ((myArr1[2]*100)/totalMarks) + "% <br>");
 
-        }
+
+// Question No.12
+
+        // var  myArr, userInp, i;
+        // myArr = ["Red", "Green", "Blue"];
+        // document.write("Original Array: <br>" + myArr + "<br> <br>");
+        // userInp  = prompt("Please enter your desired color to be added at the start of array", "Brown");
+        // myArr.unshift(userInp);
+        // document.write("After adding " + userInp + " at start of Array: <br>" + myArr + "<br> <br>");
+        // userInp  = prompt("Please enter your desired color to be added at the end of array", "Black");
+        // myArr.push(userInp);
+        // document.write("After adding " + userInp + " at end of Array: <br>" + myArr + "<br> <br>");
+        // myArr.unshift("Grey", "Deep Pink");
+        // document.write("After adding two more colors at start of Array: <br>" + myArr + "<br> <br>");
+        // myArr.shift();
+        // document.write("After removing from start of Array: <br>" + myArr + "<br> <br>");
+        // myArr.pop();
+        // document.write("After removing from end of Array: <br>" + myArr + "<br> <br>");
+        // userInp  = parseInt(prompt("Please enter your desired index at which you want the color to be added", "2"));
+        // i=userInp;
+        // userInp  = prompt("Please enter your desired color name", "Yellow");
+        // myArr.splice(i,0, userInp);
+        // document.write("After adding your desired color (" + userInp + ") at your desired index ("+ i +") in the Array: <br>" + myArr + "<br> <br>");
+        // userInp  = parseInt(prompt("Please enter your desired index at which you want the color to be deleted", "2"));
+        // i=userInp;
+        // userInp  = parseInt(prompt("Please enter how many colors you want to delete", "1"));
+        // myArr.splice(i,userInp,);
+        // document.write("After deleting your desired " + userInp +" color(s) from your desired index ("+ i +") in the Array: <br>" + myArr + "<br> <br>");
+
+
+// Question No.13
+
+        // var  myArr;
+        // myArr = [20, 4, 12, 15, 24, 22, 9, 1];
+        // document.write("Normal array: " + myArr + "<br> <br>");
+        // myArr.sort(function(a, b){return a-b});
+        // document.write("Sorted array: " + myArr);
+
+
+// Question No.14
+
+        // var  myArr;
+        // myArr = ["strawberry", "apple", "orange", "banana"];
+        // document.write("Fruits list: <br>" + myArr + "<br><br>");
+        // myArr.sort();
+        // document.write("Ordered fruits list: <br>" + myArr + "<br><br>");
+
+
+// Question No.15
+
+        // var cities, selectedCities;
+        // cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
+        // document.write("Cities list: <br>" + cities + "<br> <br>");
+        // selectedCities = cities.slice(2,4);
+        // document.write("Selected cities list: <br>" + selectedCities + "<br> <br>");
+
+// Question No.16
+
+        // var arr;
+        // arr = ["This", "is", "my", "cat"];
+        // document.write("Array: <br>" + arr + "<br><br>");
+        // document.write("String: <br>" + arr.join(" "))
+
         
+// Question No.17
+
+        // var arr;
+        // arr = ["keyboard", "mouse", "printer", "monitor"];
+        // document.write("Devices: <br>" + arr + "<br><br>");
+
+        // for(i=0; i<4; i++){
+
+        //         document.write("Out: <br>" + arr[i] + "<br>");
+        // }
+
+
+// Question No.18
+
+        // var arr;
+        // arr = ["keyboard", "mouse", "printer", "monitor"];
+        // document.write("Devices: <br>" + arr + "<br><br>");
+
+        // for(i=3; i>=0; i--){
+
+        //         document.write("Out: <br>" + arr[i] + "<br>");
+        // }
+
+
+
+// Question No.20
+
+        // var myArr;
+        // myArr = [];
+
+
+// Question No.21
+
+        // var myArr;
+        
+        // myArr = [[0, 1, 2, 3], [1, 0 , 1, 2], [2, 1, 0, 1]];
+        
+        // for(i=0; i<4; i++){
+        //         for(j=0; j<4; j++){
+        //                 document.write(myArr[i][j] + " ");
+        //         }
+        //         document.write("<br>");
+        // }
+
+
+
+                                                                    /* CHAPTER No. 18-20 "FOR LOOPS"  */
+
+
+// Question No.1
+
+        // var myStr;
+        // myStr = "Hello World";
+        // for(i=0; i<5; i++){
+
+        //         document.write(myStr + "<br>");
+
+        // } 
+
+
+// Question No.2
+
+        // for(i=1; i<11; i++){
+        //         document.write(i + "<br>");
+        // }
+
+
+// Question No.3
+
+        // var multiplicand, multiplier, result, length;
+        // multiplicand = parseInt(prompt("Please enter the number of which you want to print the multiplication table","3"));
+        // multiplier = 1;
+        // length = parseInt(prompt("Please enter the length of multiplication table","20"))
+        // document.write("Multiplication Table of " + multiplicand + "<br>")
+        // document.write("Length of table: " + length + "<br> <br>")
+        // while(multiplier<=length){
+
+        //     result = multiplicand * multiplier;
+        //     document.write(multiplicand + " X " + multiplier + " = " + result + "<br>");
+        //     multiplier++;
+            
+        // }
+
+
+// Question No.4
+
+        // var myArr;
+        // myArr = ["Nokia","Samsung","Apple","Sony","Huawei"];
+        // for (i=0; i<5; i++){
+        //         document.write(myArr[i] + "<br>")
+        // }
+
+
+// Question No.5
+
+        // var myArr;
+        // myArr = ["apple", "banana","mango","orange", "strawberry"];
+        // for (i=0; i<5; i++){
+        //         document.write(myArr[i] + "<br>")
+        // }
+        // document.write("<br><br>");
+        // for (i=0; i<5; i++){
+        //         document.write("Element at index "+ i + " is " + myArr[i] + "<br>")
+        // }
+
+
+// Question No.6
+
+        // var myArr, arrayLength, userInp;
+        // myArr = [];
+        // arrayLength = parseInt(prompt("Please enter the number of items","4"));
+        // document.write("Number of items: "+ arrayLength +"<br>");
+        // document.write("Items: "+"<br><br>");
+        // for(i=0; i<arrayLength; i++){
+
+        //         userInp= prompt("Please enter item at index "+i, "Passion Fruit");
+        //         myArr[i]=userInp;
+        //         document.write(myArr[i] + "<br>")
+
+
+        // }
+        // document.write("<br><br>");
+
+
+// Question No.7(a)
+
+        // document.write("<h1>Counting:</h1> <br>")
+        // for(i=1; i<=15; i++){
+        //         document.write(i, ", ")
+        // }
+        
+
+// Question No.7(b)
+
+        // document.write("<h1>Reverse counting:</h1> <br>")
+        // for(i=10; i>=1; i--){
+        //         document.write(i, ", ")
+        // }
+
+
+// Question No.7(c)
+
+        // document.write("<h1>Even:</h1> <br>")
+        // for(i=0; i<=20; i++){
+        //         if(i%2==0){
+        //         document.write(i, ", ")
+        //         }
+        // }
+
+
+// Question No.7(d)
+
+        // document.write("<h1>Odd:</h1> <br>")
+        // for(i=0; i<=20; i++){
+        //         if(i%2==1){
+        //         document.write(i, ", ")
+        //         }
+        // }
+
+
+// Question No.7(e)
+
+        // document.write("<h1>Series:</h1> <br>")
+        // for(i=1; i<=20; i++){
+        //         if(i%2==0){
+        //         document.write(i, "k, ")
+        //         }
+        // }
+
+
+// Question No.8
+
+        // var items, search, check, userSearch, itemIndex;
+        // items = ["cake", "apple pie", "cookie", "chips", "patties"];
+        // search = prompt("Welcome to SMIT Bakery. What do you want to order Sir/Ma'am?");
+        // check = search.toLowerCase();
+        
+        // for(i=0; i<5; i++){
+        //         if(check == items[i]){
+        //                 userSearch = true;
+        //                 itemIndex = i;
+        //         }
+        // }
+
+        // if(userSearch == true){
+        //         document.write(search, " is <strong>available</strong> at index ", itemIndex, " in our bakery.");
+                        
+        // }
+        // else{
+        //         document.write("We are sorry. ", search, " is not <strong>available</strong> in our bakery.");
+        // }
+        
+
+// Question No.9
+
+        // var myArr, sortedArr, copyMyArr;
+        // myArr = [24, 53, 78, 91, 12];
+        // copyMyArr = myArr.slice(0,5);
+        // sortedArr = copyMyArr.sort();
+        // sortedArr = sortedArr.reverse();
+        // document.write("Array items: " + myArr + "<br> The largest number is " + sortedArr[0]);
+
+// Question No.10
+
+        // var myArr, sortedArr, copyMyArr;
+        // myArr = [24, 53, 78, 91, 12];
+        // copyMyArr = myArr.slice(0,5);
+        // copyMyArr.sort()
+        // document.write("Array items: " + myArr + "<br> The smallest number is " + copyMyArr[0]);
+
+
+// Question No.11
+
+        // var myArr, sortedArr, copyMyArr;
+        // myArr = [24, 53, 78, 91, 12];
+        // copyMyArr = myArr.slice(0,5);
+        // copyMyArr.sort();
+        // copyMyArr.reverse();
+        // sortedArr = copyMyArr.slice(0,5);
+        // sortedArr.sort();
+        // document.write("Array items: " + myArr + "<br> The smallest number is " + sortedArr[0] + "<br> The largest number is " + copyMyArr[0]);
+
+
+// Question No.12
+
+        // for(i=1; i<=20; i++){
+        //         var result;
+        //         result = 5*i;
+        //         document.write(result, ", ");
+        // }
+
+        /*another way */
+        // for(i=1; i<=100; i++){
+        //         if(i%5 == 0){
+        //                 document.write(i + ", ");
+        //         }
+        // }
+
+
+// Question No.14
+
+        // var userInput, myArr;
+        // myArr = [12, 45, 3, 22, 34, 50];
+        // alert(myArr);
+        // userInput = parseInt(prompt("Please enter a stop value"));
+        // for(i=0; i<6; i++) {
+        //         if(userInput == myArr[i]){
+        //                 var j=0
+        //                 while(userInput != myArr[j]){
+        //                         document.write(myArr[j] + ", ");
+        //                         j++;
+        //                 }
+        //                 document.write(myArr[j]);
+
+
+        //         }
+                
+        // }
+
+
+// Question No.15
+
+        // var myArr;
+        // myArr = [[1,2,3], [4,5,6], [7,8,9]];
+        // for(i=0; i<3; i++){
+        //         for(j=0; j<3; j++){
+        //                 document.write(myArr[i][j] + " ");
+        //         }
+        //         document.write("<br>");
+        // }
+
+
+// Question No.16
+
+        // var num;
+        // num  = parseInt(prompt("Enter a number", "7"));
+        // while(num>=0){
+        //         document.write(num, ", ");
+        //         num-=0.5
+        // }
+
+
+
+// Question No.17
+
+        // for(i=0; i<=20; i++){
+        //         if(i%2==0){
+        //                 document.write(i, " is even <br>")
+        //         }
+        //         else{
+        //                 document.write(i, " is odd <br>")
+        //         }
+        // }
+
+
+// Question No.18
+
+        // var result;
+        // result = 1;
+        // for(i=1; i<=7; i++){
+        //         if(i%2 != 0){
+        //                 result*=i;
+        //         }
+        // }
+        // document.write("The product of odd integers from 1 to 7 is ", result);
+
+
+// Question No.19
+
+        // var userInp;
+        // userInp = parseInt(prompt("Please enter the number of stars", "4"));
+        // while(userInp>=1){
+        //         for(i=1; i<=userInp; i++){
+        //                 document.write("* ");
+        //         }
+        //         document.write("<br>");
+        //         userInp--;
+        // }
+
+
+// Question No.20(a)
+
+        // var userInp;
+        // userInp = parseInt(prompt("Please enter the number of stars", "4"));
+        // for(i=1; i<=userInp; i++){
+        //         for(j=1; j<=userInp; j++){
+        //                 document.write("* ");
+        //         }
+        //         document.write("<br>");
+        // }
+
+
+// Question No.20(b)
+
+        // var userInp;
+        // userInp = parseInt(prompt("Please enter the number of stars", "4"));
+        // for(i=1; i<=userInp; i++){
+        //         for(j=1; j<=i; j++){
+        //                 document.write("* ");
+        //         }
+        //         document.write("<br>");
+        // }
+
+
+// Question No.20(c)
+
+        // var userInp;
+        // userInp = parseInt(prompt("Please enter the number of stars", "4"));
+        // while(userInp>=1){
+        //         for(i=1; i<=userInp; i++){
+        //                 document.write("* ");
+        //         }
+        //         document.write("<br>");
+        //         userInp--;
+        // }
