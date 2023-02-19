@@ -1838,6 +1838,19 @@
         // }
 
 
+// Question No.13
+
+        // var studens, scores;
+        // studens = ["Ali", "Sami", "Taha", "Inam"];
+        // scores = [58, 73, 89, 90];
+        // document.write("<table border = 1>");
+        // document.write("<tr><td>Students</td><td>Scores</td></tr>");
+        // for(i=0; i<studens.length; i++){
+        //         document.write("<tr> <td>"+ studens[i] +"</td> <td> "+ scores[i] +" </td> </tr>");
+        // } 
+        // document.write("</table>");
+
+
 // Question No.14
 
         // var userInput, myArr;
@@ -1953,4 +1966,679 @@
         //         }
         //         document.write("<br>");
         //         userInp--;
+        // }
+
+
+
+
+                                                                    /* CHAPTER No. 21-25 "STRING METHODS"  */
+
+
+
+// Question No.1
+
+        // var firstName, lastName, fullName;
+        // firstName = prompt("Please enter your first name", "John");
+        // lastName =  prompt("Please enter your last name", "Doe");
+        // fullName = firstName + " " + lastName;
+        // alert("Hello " + fullName + "!");
+
+
+// Question No.2
+
+        // var userInp;
+        // userInp = prompt("Please enter your fav mobile phone model", "Samsung Galaxy S23 Ultra");
+        // document.write("My favorite phone is: " + userInp + "<br>Length of string: " + userInp.length);
+
+
+// Question No.3
+
+        // var myString;
+        // myString = "Pakistani";
+        // document.write("String: " + myString);
+        // for(i=0; i<myString.length; i++){
+        //         if(myString[i] == "n"){
+        //                 document.write("<br>Index of 'n': " + i);
+        //         }
+        // }
+
+
+// Question No.3
+
+        // var myString;
+        // myString = "Pakistani";
+        // document.write("String: " + myString + "<br>Index of 'n': " + myString.indexOf("n"));
+
+// Question No.4
+
+        // var myString;
+        // myString = "Hello World";
+        // document.write("String: " + myString + "<br>Last index of 'l': " + myString.lastIndexOf("l"));
+
+
+// Question No.5
+
+        // var myString;
+        // myString = "Pakistani";
+        // document.write("String: " + myString + "<br>Charecter at index 3: " + myString[3]);
+
+
+// Question No.6
+
+        // var firstName, lastName, fullName;
+        // firstName = prompt("Please enter your first name", "John");
+        // lastName =  prompt("Please enter your last name", "Doe");
+        // fullName = firstName.concat(" ", lastName);
+        // alert("Hello " + fullName + "!");
+
+
+// Question No.7
+
+        // var myString, replacedString;
+        // myString = "Hyderabad";
+        // replacedString = myString.replace("Hyder", "Islam");
+        // document.write("City: " + myString + "<br>After replacement: " + replacedString);
+
+
+// Question No.8
+
+        // var myString, replacedString;
+        // myString = "Ali and Sami are best friends. They play cricket and football together.";
+        // replacedString = myString.replace(/and/g, "&");
+        // document.write("Message: ", myString, "<br>After replacement: ", replacedString);
+
+
+// Question No.9
+
+        // var myString, replacedString;
+        // myString = "472";
+        // document.write("Value: ", myString, "<br>Type: ", typeof(myString));
+        // replacedString = Number(myString);
+        // document.write("<br>Value: ", replacedString, "<br>Type: ", typeof(replacedString));
+
+
+// Question No.10
+
+        // var myString, userInp;
+        // userInp = prompt("Please enter url in following format\n www.google.com", "www.yahoo.com");
+        // myString = userInp.slice(4);
+        // document.write("URL: " + userInp + "<br>Domain: " + myString);
+
+
+// Question No.11
+
+        // var myString, userInp;
+        // userInp = prompt("Please enter a word or sentence.", "Fliqpy the hero");
+        // myString = userInp.toUpperCase();
+        // document.write("User input: ", userInp, "<br>Upper case: ", myString);
+
+
+// Question No.12
+
+        // var myString, userInp;
+        // userInp = prompt("Please enter a word or sentence.", "Fliqpy the hero");
+        // myString = userInp.toLowerCase();
+        // document.write("User input: ", userInp, "<br>Lower case: ", myString);
+
+
+// Question No.13
+
+        // var userInp;
+        // function titleCase(input) {
+        //         var sentence = input.toLowerCase().split(" ");
+        //         for(i = 0; i< sentence.length; i++){
+        //            sentence[i] = sentence[i][0].toUpperCase() + sentence[i].slice(1);
+        //         }
+        //      document.write(sentence.join(" "));
+        //      return sentence;
+        // }
+        // userInp = prompt("Please enter a word or sentence", "The quick brown fox jumps over the lazy dog");
+        // titleCase(userInp);
+
+
+// Question No. 14
+
+        // var num, newNum, myStr;
+        // num = 35.36;
+        // myStr = num.toString();
+        // document.write("Number: ", num, "<br>");
+        // newNum = myStr.slice(0,2) + myStr.slice(3);
+        // document.write("Result: ", newNum);
+
+
+// Question No. 15
+
+        // var a, b, x;
+        // a = "3";
+        // b = "3";
+        // x = a + b;
+        // document.write("a is " + a + "<br>b is " + b + "<br>a + b is " + x);
+
+
+// Question No. 16
+
+        // var a, b, y;
+        // a = "3";
+        // b = "3";
+        // y = a - b;
+        // document.write("a is " + a + "<br>b is " + b + "<br>a - b is " + y);
+
+
+// Question No. 17
+
+        // var username, userInp, myBool;
+        // userInp = prompt("Please enter usernmae", "johndoe");
+        // for(i=0; i<userInp.length; i++){
+        //         if(userInp[i] == '!' || userInp[i] == ',' || userInp[i] == '.' || userInp[i] == '@'){
+        //                 myBool = true;
+        //         }
+        // }
+        // if(myBool == true){
+        //         alert("Please enter a valid username");
+        // }
+        // else{
+        //         username = userInp;
+        // }
+
+
+// Question No. 18
+
+        // var myArr, userInp, lower, myBool;
+        // myArr = ["cake", "apple pie", "cookie", "chips", "patties"];
+        // userInp = prompt("Welcome to ABC Bakery. What do you want to order sir/ ma'am?");
+        // lower = userInp.toLowerCase();
+        // for(i=0; i<myArr.length; i++){
+        //         if(lower == myArr[i]){
+        //                 myBool = true;
+        //                 document.write(userInp, " is <strong>available</strong> at index ", i, " in our bakery");
+        //         }
+        // }
+        // if(myBool != true){
+        //         document.write("We are sorry. ", userInp, " is <strong>not available</strong> in our bakery");
+        // }
+
+
+// Question No. 19
+
+        // var str1, str2, strCompare;
+        // str1 = prompt("Please enter first string");
+        // str2 = prompt("Please enter second string");
+        // strCompare = str1.localeCompare(str2);
+        // if(str1.length>str2.length){
+        //         document.write(str1, " is greater than ", str2);
+        // }
+        // else if(str2.length>str1.length){
+        //         document.write(str2, " is greater than ", str1);
+        // }
+        // else if(str1.length == str2.length){
+        //         switch(strCompare){
+        //                 case 0:
+        //                         document.write(str1, " is equal to ", str2);
+        //                         break;
+        //                 case 1:
+        //                         document.write(str1, " is greater than ", str2);
+        //                         break;
+        //                 case -1:
+        //                         document.write(str2, " is greater than ", str1);
+        //                         break;
+
+        //         }
+        // }
+
+
+// Question No. 20
+
+        // var userInp, check1, check2, check3, check4;
+        // userInp = prompt("Please enter a password");
+        // check1 = Number(userInp[0]);
+        // check2 = userInp.length;
+        // for(i=0; i<userInp.length; i++){
+        //         if((userInp[i] * 0) == 0){
+        //                 check3 = true;
+        //                 break;
+        //         }
+        // }
+        // for(i=0; i<userInp.length; i++){
+        //         if(typeof(userInp[i]) == "string"){
+        //                 check4 = true;
+        //                 break;
+        //         }
+        // }
+
+        // if(check2<6){
+        //         document.write("Entered Password: " + userInp + "<br>");
+        //         document.write("Password must be atleast 6 characters long <br>");
+        //         document.write("Please enter a valid password");
+        // }
+
+        // else if (typeof(check1) == "number" && !isNaN(check1)){
+        //         document.write("Entered Password: " + userInp + "<br>");
+        //         document.write("Password can not begin with a number <br>");
+        //         document.write("Please enter a valid password");
+        // }
+
+        // else if(check3 != true || check4 != true){
+        //         document.write("Entered Password: " + userInp + "<br>");
+        //         document.write("Password must be alphanumeric <br>");
+        //         document.write("Please enter a valid password");
+        // }
+
+        // else {
+        //         document.write("Entered Password: " + userInp + "<br>");
+        //         document.write("Entered password meets our criteria");
+        // }
+
+
+// Question No. 21
+
+        // var userInp, myArr;
+        // userInp = "University of Karachi";
+        // myArr = userInp.split("");
+        // for(i=0; i<myArr.length; i++){
+        //         document.write(myArr[i], "<br>");
+        // }
+
+        
+// Question No. 22
+
+        // var userInp;
+        // userInp = prompt("Please enter something", "Pakistan");
+        // document.write("User input: " + userInp + "<br>");
+        // document.write("Last character of input: " + userInp[(userInp.length-1)]);
+
+
+// Question No. 23
+
+        // var userInp, myArr, myVal;
+        // myVal =0;
+        // userInp = prompt("Please enter a sentence", "The quick brown fox jumps over the lazy dog");
+        // myArr = userInp.split(" ");
+        // document.write("<h1> Checking occurrence of word 'The' in given statement </h1> <br>");
+        // for(i=0; i<myArr.length; i++){
+        //         if(myArr[i].toLowerCase() == 'the'){
+        //                 myVal++
+        //         }
+        // }
+        // document.write("Text: " + userInp + "<br>")
+        // document.write("There are " + myVal + " occurrence(s) of the word 'the' in above statements");
+
+
+// Question No. 24
+
+        // var userInp, vowelCount, constCount;
+        // vowelCount = 0;
+        // constCount = 0;
+        // userInp = prompt("Please enter a word", "Pakistan");
+        // for(i=0; i<userInp.length; i++){
+        //         if(userInp[i].toLowerCase() == 'a' || userInp[i].toLowerCase() == 'e' || userInp[i].toLowerCase() == 'i' || userInp[i].toLowerCase() == 'o' || userInp[i].toLowerCase() == 'u'){
+        //                 vowelCount++
+        //         }
+        //         else if(userInp[i].toLowerCase() != 'a' && userInp[i].toLowerCase() != 'e' && userInp[i].toLowerCase() != 'i' && userInp[i].toLowerCase() != 'o' && userInp[i].toLowerCase() != 'u' && userInp[i] != ' '){
+        //                 constCount++
+        //         }
+        // }
+        // document.write("<h3> There are <span style='color:red'>" + vowelCount + " vowel(s)</span> and <span style='color:red'>" + constCount + " constant(s)</span> in '" + userInp + "'</h3>");
+
+
+
+
+
+                                                                    /* CHAPTER No. 26-34 "MATH AND DATE METHODS"  */
+
+
+
+// Question No. 1
+
+        // var userInput;
+        // userInput = parseInt(prompt("Please enter a positive integer", "25"));
+        // document.write("number: " + userInput + "<br>round off value: " + Math.round(userInput) + "<br>floor value: " + Math.floor(userInput) + "<br>ceil value: " + Math.ceil(userInput));
+
+
+// Question No. 2
+
+        // var userInput;
+        // userInput = parseInt(prompt("Please enter a negative integer", "-25"));
+        // document.write("number: " + userInput + "<br>round off value: " + Math.round(userInput) + "<br>floor value: " + Math.floor(userInput) + "<br>ceil value: " + Math.ceil(userInput));
+        
+
+// Question No. 3
+
+        // var userInput;
+        // userInput = parseFloat(prompt("Please enter a positive floating point number", "25.357129"));
+        // document.write("number: " + userInput + "<br>round off value: " + Math.round(userInput) + "<br>floor value: " + Math.floor(userInput) + "<br>ceil value: " + Math.ceil(userInput));
+
+
+// Question No. 4
+
+        // var userInput;
+        // userInput = parseFloat(prompt("Please enter a negative floating point number", "-25.357129"));
+        // document.write("number: " + userInput + "<br>round off value: " + Math.round(userInput) + "<br>floor value: " + Math.floor(userInput) + "<br>ceil value: " + Math.ceil(userInput));
+
+
+// Question No. 5
+
+        // var userInput;
+        // userInput = parseInt(prompt("Please enter a positive or negative integer", "-23"));
+        // document.write("The absolute value of " + userInput + " is " + Math.abs(userInput));
+
+
+// Question No. 6
+
+        // var dice;
+        // dice = Math.random()*6;
+        // document.write("random dice value: " + Math.ceil(dice));
+
+
+// Question No. 7
+
+        // var dice;
+        // dice = Math.random()*2;
+        // dice = Math.ceil(dice);
+        // if(dice == 1){
+        //         document.write(dice, "<br>random coin value: Heads" );
+        // }
+        // else{
+        //         document.write(dice, "<br>random coin value: Tails" );
+        // }
+
+
+// Question No. 8
+
+        // var dice;
+        // dice = Math.random()*100;
+        // document.write("random number between 1 and 100: " + Math.ceil(dice));
+
+
+// Question No. 9
+
+        // var userInp;
+        // userInp = parseFloat(prompt("Please enter your weight in kilograms", "50.5kg"));
+        // document.write("The weight of user is " + userInp + " kilograms");
+
+
+// Question No. 10
+
+        // var myNum, userInp;
+        // myNum = Math.ceil(Math.random()*10);
+        // userInp = parseInt(prompt("Enter a number between 1 and 10", "7"));
+        // if(userInp == myNum){
+        //         alert("Congratulations you guessed the right number");
+        // }
+        // else{
+        //         alert("Try again!");
+        // }
+        // document.write("Random number: ", myNum, "<br>Your guess: ", userInp);
+
+
+// Question No. 11
+
+        // document.write(new Date());
+
+
+// Question No. 12
+
+        // var myDate, myMonth;
+        // myDate = new Date();
+        // myMonth =  myDate.getMonth();
+        // switch(myMonth){
+        //         case 0:
+        //                 alert("Current Month: January");
+        //                 break;
+        //         case 1:
+        //                 alert("Current Month: February");
+        //                 break;
+        //         case 2:
+        //                 alert("Current Month: March");
+        //                 break;
+        //         case 3:
+        //                 alert("Current Month: April");
+        //                 break;
+        //         case 4:
+        //                 alert("Current Month: May");
+        //                 break;
+        //         case 5:
+        //                 alert("Current Month: June");
+        //                 break;
+        //         case 6:
+        //                 alert("Current Month: July");
+        //                 break;
+        //         case 7:
+        //                 alert("Current Month: August");
+        //                 break;
+        //         case 8:
+        //                 alert("Current Month: September");
+        //                 break;
+        //         case 9:
+        //                 alert("Current Month: October");
+        //                 break;
+        //         case 10:
+        //                 alert("Current Month: November");
+        //                 break;
+        //         case 11:
+        //                 alert("Current Month: December");
+        //                 break;
+        // }
+
+
+
+// Question No. 13
+
+        // var myDate, myDay;
+        // myDate = new Date();
+        // myDay =  myDate.getDay();
+        // switch(myDay){
+        //         case 0:
+        //                 alert("Today is Sun");
+        //                 break;
+        //         case 1:
+        //                 alert("Today is Mon");
+        //                 break;
+        //         case 2:
+        //                 alert("Today is Tue");
+        //                 break;
+        //         case 3:
+        //                 alert("Today is Wed");
+        //                 break;
+        //         case 4:
+        //                 alert("Today is Thu");
+        //                 break;
+        //         case 5:
+        //                 alert("Today is Fri");
+        //                 break;
+        //         case 6:
+        //                 alert("Today is Sat");
+        //                 break;
+                
+        // }
+
+
+// Question No. 14
+
+        // var myDate, myDay;
+        // myDate = new Date();
+        // myDay =  myDate.getDay();
+        // switch(myDay){
+
+        //         case 0:
+        //                 document.write("It's Fun day");
+        //                 break;
+        //         case 6:
+        //                 document.write("It's Fun day");
+        //                 break;
+                
+        // }
+
+
+// Question No. 15
+
+        // var myDate, myDay;
+        // myDate = new Date();
+        // myDay =  myDate.getDate();
+        // if(myDay<=15){
+        //         document.write("First fifteen days of the month");
+        // }
+        // else{
+        //         document.write("Last days of the month")
+        // }
+
+
+// Question No. 16
+
+        // var myDate, myTime;
+        // myDate = new Date();
+        // myTime = myDate.getTime();
+        // var myMin = (myTime/(1000*60));
+        // document.write("Current Date: ", myDate, "<br>");
+        // document.write("Elapsed Milliseconds Since January 1, 1970: ", myTime, "<br>");
+        // document.write("Elapsed Minutes Since January 1, 1970: ", myMin);
+
+
+// Question No. 17
+
+        // var myDate, myHour;
+        // myDate = new Date();
+        // myHour = myDate.getHours;
+        // if(myHour<12){
+        //         document.write("It's AM");
+        // }
+        // else{
+        //         document.write("It's PM");
+        // }
+
+
+// Question No. 18
+
+        // var myDate, laterDate;
+        // myDate = "31 Dec, 2020";
+        // laterDate = new Date(myDate);
+        // document.write("Later date: ",laterDate);
+
+
+// Question No. 19
+
+        // var myDate, laterDate, Ramadan, daysPast, todayDate, todayTime, dayRamadan;
+        // todayDate = new Date();
+        // todayTime = todayDate.getTime();
+        // myDate = "18 June, 2015";
+        // laterDate = new Date(myDate);
+        // Ramadan = laterDate.getTime();
+        // dayRamadan = todayTime - Ramadan;
+        // daysPast = (dayRamadan/(24*60*60*1000));
+        // document.write(Math.floor(daysPast), " days have passed since 1st Ramadan, 2015");
+
+
+// Question No. 20
+
+        // var myDate, startDate, endDate, startTime, endTime, secPassed;
+        // startDate = new Date("1 Jan, 2015");
+        // startTime = startDate.getTime();
+        // endDate = new Date("5 Dec, 2015");
+        // endTime = endDate.getTime();
+        // myDate = endTime - startTime;
+        // secPassed = (myDate/1000);
+        // document.write("On reference date ", endDate, ",<br>", secPassed, " seconds had passed since beginning of ", endDate.getFullYear());
+
+
+// Question No. 21
+
+        // var myDate, newDate;
+        // myDate = new Date();
+        // newDate = new Date();
+        // newDate.setHours((newDate.getHours()-1));
+        // document.write("Current date: ", myDate);
+        // document.write("<br>1 hour ago, it was ", newDate);
+
+
+// Question No. 22
+
+        // var myDate, centuryBack;
+        // myDate = new Date();
+        // centuryBack = new Date();
+        // centuryBack.setFullYear((centuryBack.getFullYear()-100));
+        // alert("current date: " + myDate + "\n" + "100 years back, it was " + centuryBack);
+        // document.write("current date: ", myDate, "<br>", "100 years back, it was ", centuryBack);
+
+
+// Question No. 23
+
+        // var myDate, birthYear, userInp, calc;
+        // myDate = new Date();
+        // userInp = prompt("Please enter your Date Of Birth", "25 Jan, 2005");
+        // birthYear = new Date(userInp);
+        // calc = Math.floor((myDate.getTime() - birthYear.getTime()) / (365*24*60*60*1000));
+        // document.write("Your age is ", calc, "<br>Your birth year is ", birthYear.getFullYear());
+
+
+// Question No. 24
+
+        // var customerName, currentMonth, myDate, unitsUsed, unitCharges, netAmmount, lateFee, grossAmmount;
+        // customerName = prompt("Please enter your full Name", "John Doe");
+        // myDate = new Date();
+        // switch(myDate.getMonth()){
+        //         case 0:
+        //                 currentMonth = "January";
+        //                 break;
+        //         case 1:
+        //                 currentMonth = "February";
+        //                 break;
+        //         case 2:
+        //                 currentMonth = "March";
+        //                 break;
+        //         case 3:
+        //                 currentMonth = "April";
+        //                 break;
+        //         case 4:
+        //                 currentMonth = "May";
+        //                 break;
+        //         case 5:
+        //                 currentMonth = "June";
+        //                 break;
+        //         case 6:
+        //                 currentMonth = "July";
+        //                 break;
+        //         case 7:
+        //                 currentMonth = "August";
+        //                 break;
+        //         case 8:
+        //                 currentMonth = "September";
+        //                 break;
+        //         case 9:
+        //                 currentMonth = "October";
+        //                 break;
+        //         case 10:
+        //                 currentMonth = "November";
+        //                 break;
+        //         case 11:
+        //                 currentMonth = "December";
+        //                 break;
+        // }
+        // unitsUsed = parseInt(prompt("Please enter your units for current month", "185"));
+        // unitCharges = 14;
+        // netAmmount = unitCharges * unitsUsed;
+        // lateFee = 500;
+        // grossAmmount = lateFee + netAmmount;
+        // document.write("<h1>K-Electric Bill</h1>");
+        // document.write("Customer Name: <strong>" + customerName + "</strong> <br>");
+        // document.write();
+        // document.write("Month: <strong>", currentMonth, "</strong><br>");
+        // document.write("Number of units: <strong>", unitsUsed, "</strong><br>");
+        // document.write("Charges per unit: <strong>", unitCharges, "</strong><br><br>");
+        // document.write("Net Ammount Payable (within Due Date): <strong>", netAmmount, "</strong><br>");
+        // document.write("Late payment surcharge: <strong>", lateFee, "</strong><br>");
+        // document.write("Gross Ammount Payable (after Due Date): <strong>", grossAmmount, "</strong><br>");
+
+
+// Question No. Palindrome
+
+        // var userInp, myArr, myString, lower;
+        // userInp = prompt("Please enter a word", "rotator");
+        // lower = userInp.toLowerCase();
+        // myArr = lower.split('');
+        // myArr.reverse();
+        // myString = myArr.join('');
+        // if(lower == myString){
+        //         document.write(userInp, " is a palindrome!");
+        // }
+        // else{
+        //         document.write(userInp, " is not a palindrome!");
         // }
